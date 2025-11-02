@@ -4,7 +4,7 @@ credentials-file: /etc/cloudflared/credentials.json
 ingress:
   # SSH Access - sshroster.mordum.loan
   - hostname: sshroster.mordum.loan
-    service: ssh://localhost:22
+    service: tcp://localhost:22
   
   # Roster Data API - Prioridad alta (debe estar primero)
   - hostname: roster.mordum.loan
